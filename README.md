@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Nobel prize winners in last 100 years
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Noble Prize provides free API of all the data, [checkout their website](https://nobelprize.readme.io/docs/getting-started).
 
 ## Available Scripts
 
