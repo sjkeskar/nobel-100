@@ -2,6 +2,7 @@ import './App.css';
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import Laureate from './components/Laureate';
+import Header from './components/Header';
 
 function App() {
   const [nobleList, setNobles] = useState([])
@@ -74,17 +75,7 @@ function App() {
 
   return (
     <div className="container">
-      {/* <div className="row m-1">
-        <h3 className='text-center'>Nobel Prize winners in the last 100 years</h3>
-        <div className="col-3"></div>
-        <div className="col-6 m-3 p-2">
-          <h5>Nobel Laureates who have Won Nobel Prize multiple times</h5>
-          {ftimesw.map((obj, index) => (
-            <div key={index}>{`${obj.name} won Nobel Prize ${obj.count} many times`}</div>
-          ))}
-        </div>
-        <div className="col-3"></div>
-      </div> */}
+      <Header />
       <div className="row m-1">
         <div className="col-4">
           <div className="row mt-4 mx-1 pt-1">
