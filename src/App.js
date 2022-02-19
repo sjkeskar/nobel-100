@@ -101,8 +101,8 @@ function App() {
             <h5 className='text-center'>Nobel Laureates who have been awarded Nobel Prize multiple times</h5>
             <table className="table">
               <thead>
-                <td itemScope="col">name</td>
-                <td itemScope="col">count</td>
+                <th itemScope="col">name</th>
+                <th itemScope="col">count</th>
               </thead>
               <tbody>
 
