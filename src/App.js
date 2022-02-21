@@ -71,6 +71,7 @@ function App() {
   useEffect(() => {
     filterData();
     fourTimesWinners()
+    console.log(nobleList)
   }, [selectyear, category, nobleList])
 
   return (
