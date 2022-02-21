@@ -14,7 +14,7 @@ function App() {
   const Categories = ["chemistry", "peace", "literature", "physics", "medicine", "economics"]
 
   const fetchData = async () => {
-    const { data: { prizes } } = await axios.get('http://api.nobelprize.org/v1/prize.json')
+    const { data: { prizes } } = await axios.get('https://api.nobelprize.org/v1/prize.json')
     const data = prizes.filter(prize => prize.year <= 2018)
     setNobles(data)
   }
